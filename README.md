@@ -1,0 +1,1 @@
+# flutter_getx_directory_simple_script
