@@ -1,6 +1,6 @@
 # flutter_getx_directory_simple_script
 
-This repo is based example_nav2 modules file structure in getx state manager repo
+This repo is based [example_nav2](https://github.com/jonataslaw/getx/tree/master/example_nav2/lib/app/modules) modules file structure in getx state manager repo
 
 usage
 > python3 {path} {file_name}
