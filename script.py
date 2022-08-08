@@ -13,7 +13,7 @@ os.chdir(file_name)
 with open(f'{file_name}_binding.dart', 'w') as f:
     f.write(f"import 'package:fit_seoul/modules/{file_name}/{file_name}_controller.dart';\n")
     f.write("import 'package:get/get.dart';\n")
-    f.write(f"class {class_name}binding extends GetxController {{\n")
+    f.write(f"class {class_name}binding extends Binding {{\n")
     f.write("@override\n")
     f.write("List<Bind> dependencies() {\n")
     f.write("return [\n")
